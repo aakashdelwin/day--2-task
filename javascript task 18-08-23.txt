@@ -1,0 +1,11 @@
+1) write a blog on difference between document and windows object?
+     *A document is an object inside the window object.
+     *we use a document object for manipulation inside the document. 
+     *The first thing that gets loaded into the browser is the window and the properties related to that window are stored in the window object.
+     *The document object is your html, aspx, php, or other document that will be loaded into the browser. 
+     * The window is the first thing that gets loaded into the browser.
+     *This window object has the majority of the properties like length, innerWidth, innerHeight, name.
+     *The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc. 
+     * If you want to access a property for the window it is window.property. 
+     * if you want to access a document for the window it is window.document.
+     * The original, parent window, is responsible for other windows to be loaded, not the document.
